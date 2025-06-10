@@ -1,0 +1,31 @@
+.name{
+    text-align: left;
+    width: 15rem;
+}
+
+.linkedin,.github{
+    color: #72767e;
+}
+#home {
+  background-image: url("../img/bg-hero2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  scroll-margin-top: 2.8rem;
+}
+.circle-background {
+      width: 200px; /* puedes ajustar el tamaño */
+      height: 200px;
+      background-image: url('../img/cpantoja.jpg');
+      background-size: cover;
+      background-position: center;
+      border: 5px solid white;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* opcional: sombra para mejorar visibilidad */
+    }
+#educacion,#experiencia {
+  scroll-margin-top: 3.5rem;
+}
+
+
