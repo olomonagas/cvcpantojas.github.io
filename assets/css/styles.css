@@ -1,8 +1,10 @@
+a {
+      text-decoration: none;
+    }
 .name{
     text-align: left;
     width: 15rem;
 }
-
 .linkedin,.github{
     color: #72767e;
 }
@@ -24,8 +26,25 @@
       overflow: hidden;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* opcional: sombra para mejorar visibilidad */
     }
-#educacion,#experiencia {
+#educacion,#experiencia,#portafolio {
   scroll-margin-top: 3.5rem;
 }
-
-
+.nombre,.email,.mensaje{
+    width: 20rem;
+}
+/* CSS tarjetas */
+.card.booking-card.v-2 {
+  background-color: #D6F7FF;
+}
+.card.booking-card.v-2 .fa {
+  color: #f7aa00;
+}
+.card.booking-card.v-2 .card-body .card-text {
+  color: #db2d43;
+}
+.card.card.booking-card.v-2 .chip {
+  background-color: #87e5da;
+}
+.card.booking-card.v-2 .card-body hr {
+  border-top: 1px solid #f7aa00;
+}
