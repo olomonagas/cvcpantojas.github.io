@@ -1,3 +1,13 @@
+/* Eliminar scroll horizontal en todo el sitio */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Asegura que todos los elementos hijos respeten el ancho */
+* {
+  box-sizing: border-box;
+}
 a {
       text-decoration: none;
     }
